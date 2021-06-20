@@ -6,20 +6,16 @@ exports.seed = function (knex) {
       // Inserts seed entries
       return knex("comment").insert([
         {
-          display_name: "Mehmet",
-          body: "Kanala abone oldum, tesekkurler.",
+          display_name: "Ayse",
+          body: "Merhaba",
           post_id: 1,
         },
         {
-          display_name: "Veli",
-          body: "React cok kullanisli, uygulama gelistirmek cok zevkli.",
+          display_name: "İlayda",
+          body: "Uygulama  cok zevkli.",
           post_id: 2,
         },
-        {
-          display_name: "Huseyin",
-          body: "Redux baslangicta karmasik ama cok kullanisli.",
-          post_id: 3,
-        },
+        
       ]);
     });
 };
