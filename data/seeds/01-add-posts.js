@@ -6,23 +6,18 @@ exports.seed = function (knex) {
       // Inserts seed entries
       return knex("post").insert([
         {
-          title: "React Dersleri kanalina hosgeldiniz",
+          title: "Merhaba Hos Geldiniz",
           content:
-            "Bu kanalda React konulari ele alinmaktadir. Takip ettiginiz icin tesekkur ederiz.",
+            "React İle Yazdıgım Blog Uygulamama Ulastıgınız icin tesekkur ederiz.",
           // user_id: 1,
         },
         {
-          title: "React bir UI (kullanici arayuzu) kutuphanesidir",
+          title: "Adım Mustafa Yildirim",
           content:
-            "React sayesinde dinamik interaktif web uygulamari gelistirebilirsiniz.",
+            "Ben Bir Frontend Developer'ım,Bu uygulamadan Size Kucak Dolusu Selamlar Gönderiyorum.",
           // user_id: 1,
-        },
-        {
-          title: "Redux bir state yonetim sistemidir",
-          content:
-            "Redux sayesinde karmasik state islemleri tek bir merkezden yonetilebilir.",
-          // user_id: 1,
-        },
+        }
+       
       ]);
     });
 };
